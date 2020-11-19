@@ -1,6 +1,6 @@
 # DomesdayDuplicator-WinBuild
 
-Note: build is x64 only
+Note: build supports x64 only
 
 1) Download qt (https://www.qt.io/download)  
 1b) Click "Go open source" at the bottom right  
@@ -9,9 +9,13 @@ Note: build is x64 only
 
 2) Run the installer, and sign in.  Hint: If you don't have an account, check bugmenot.  Change the installation options to "Default desktop installation (minggw + qt)".  Accept all other defaults.
 
-3) install chocolatey (https://chocolatey.org/install)
+3) Install chocolatey (https://chocolatey.org/install)
 
-4) install make (choco install make) and git (choco install git)
+4) install make and git:
+```
+choco install make
+choco install git
+```
 
 5) Download libusb (https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.7z) and extract it.
 
