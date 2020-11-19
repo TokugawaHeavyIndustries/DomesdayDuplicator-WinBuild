@@ -7,7 +7,7 @@ Note: build supports x64 only
 1c) Scroll down and click "Download the qt online installer" underneath "Looking for QT binaries"  
 1d) Make sure it detects your OS as Windows, scroll down, and hit Download  
 
-2) Run the installer, and sign in.  Hint: If you don't have an account, check bugmenot.  Change the installation options to "Default desktop installation (minggw + qt)".  Accept all other defaults.
+2) Run the installer, and sign in.  Hint: If you don't have an account, check bugmenot.  Change the installation options to "Default desktop installation (mingw + qt)".  Accept all other defaults.
 
 3) Download libusb (https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.7z) and extract it.
 
