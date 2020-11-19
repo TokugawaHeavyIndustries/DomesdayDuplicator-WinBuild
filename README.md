@@ -9,6 +9,14 @@ Note: build supports x64 only
 
 2) Run the installer, and sign in.  Hint: If you don't have an account, check bugmenot.  Change the installation options to "Default desktop installation (mingw + qt)".  Accept all other defaults.
 
+Everything after Step 2 (but not including step 2) has been automated.  Follow Steps 1-2, and then run the following command.  Always make sure you trust scripts that you're running from the internet!  The script being pulled is available in this repo for your inspection.
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/TokugawaHeavyIndustries/DomesdayDuplicator-WinBuild/main/installscript-dd.ps1'))
+```
+
+Or, continue reading to do everything yourself.
+
 3) Download libusb (https://github.com/libusb/libusb/releases/download/v1.0.23/libusb-1.0.23.7z) and extract it.
 
 4) Create the folder C:\libusb.  This is where we'll be placing the libusb dependencies.  Inside the *extracted* libusb folder, copy all files from \MinGW64\dll and \include\libusb-1.0 to C:\libusb.  You should have three files inside C:\libusb at this point:
