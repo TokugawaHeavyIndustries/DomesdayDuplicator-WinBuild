@@ -1,6 +1,6 @@
 # DomesdayDuplicator-WinBuild
 
-Note: build supports x64 only
+Note: Outdated.  Will be updated later.
 
 1) Download qt (https://www.qt.io/download)  
 1b) Click "Go open source" at the bottom right  
